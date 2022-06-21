@@ -1,0 +1,55 @@
+//
+//  RatingView.swift
+//  Unilancer1
+//
+//  Created by Reem Alharthi on 16/11/1443 AH.
+//
+
+//import SwiftUI
+
+//struct RatingView: View {
+//    @Binding var rating: Int
+//    @State private var review = ""
+//    var label = ""
+//
+//    var maximumRating = 5
+//
+//    var offImage: Image?
+//    var onImage = Image(systemName: "star.fill")
+//
+//    var offColor = Color.gray
+//    var onColor = Color.yellow
+//    
+//    func image(for number: Int) -> Image {
+//        if number > rating {
+//            return offImage ?? onImage
+//        } else {
+//            return onImage
+//        }
+//    }
+//    var body: some View {
+//        HStack {
+//            if label.isEmpty == false {
+//                Text(label)
+//            }
+//
+//            ForEach(1..<maximumRating + 1, id: \.self) { number in
+//                image(for: number)
+//                    .foregroundColor(number > rating ? offColor : onColor)
+//                    .onTapGesture {
+//                        rating = number
+//                    }
+//            }
+//        }
+//       
+//        
+//    }
+//}
+//
+//struct RatingView_Previews: PreviewProvider {
+//   
+//        static var previews: some View {
+//            RatingView(rating: .constant(5))
+//        }
+//    
+//}

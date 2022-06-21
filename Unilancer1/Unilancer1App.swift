@@ -12,6 +12,9 @@ struct Unilancer1App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+           // reviewView()
+           //SplashScreen()
+//            OnBoding1()
         }
     }
 }

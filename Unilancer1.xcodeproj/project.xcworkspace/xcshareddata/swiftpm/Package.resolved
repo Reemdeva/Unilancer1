@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "iPhoneNumberField",
+        "repositoryURL": "https://github.com/MojtabaHs/iPhoneNumberField",
+        "state": {
+          "branch": null,
+          "revision": "a6b5fcc6c9b085285932fe4fe754086ab92409cb",
+          "version": "0.6.1"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": null,
+          "revision": "4a6058cbbdfe4f74aeae92c8bd51ad3b0de2a1ee",
+          "version": "3.3.0"
+        }
+      },
+      {
+        "package": "PhoneNumberKit",
+        "repositoryURL": "https://github.com/marmelroy/PhoneNumberKit",
+        "state": {
+          "branch": null,
+          "revision": "d4c094934237b23344cf948dd999c431feb8da06",
+          "version": "3.4.1"
+        }
+      },
+      {
+        "package": "SwiftUIX",
+        "repositoryURL": "https://github.com/SwiftUIX/SwiftUIX",
+        "state": {
+          "branch": null,
+          "revision": "889c781539cdd1e6a1111472c711082522aa35c6",
+          "version": "0.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
